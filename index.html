@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gold Price Prediction App</title>
+  <link rel="stylesheet" href="C:\Users\Ildiko\Desktop\market-prediction\style.css">
+</head>
+<body>
+  <header>
+    <h1>Gold Price Prediction</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Predictions</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+    <section class="prediction-form">
+      <h2>Predict Gold Price</h2>
+      <form id="predictionForm">
+        <label for="inputData">Enter Current Value ($):</label>
+        <input type="text" id="inputData" name="inputData" required>
+        <button type="button" onclick="predictGoldPrice()">Predict</button>
+      </form>
+    </section>
+
+    <section class="prediction-results">
+      <h2>Prediction Results</h2>
+      <div class="result-chart" id="resultChart">
+        <!-- Chart or prediction results will be displayed here -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Gold Price Prediction App</p>
+  </footer>
+
+  <script src="C:\Users\Ildiko\Desktop\market-prediction\script.js"></script>
+</body>
+</html>
